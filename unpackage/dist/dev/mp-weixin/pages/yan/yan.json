@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "研学",
+  "usingComponents": {
+    "uv-swiper": "../../uni_modules/uv-swiper/components/uv-swiper/uv-swiper"
+  }
+}

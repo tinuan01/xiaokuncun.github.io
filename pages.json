@@ -1,0 +1,68 @@
+{
+	/* 	"easycom": {
+			"autoscan": true,
+			"custom": {
+				"^uv-(.*)": "@climblee/uv-ui/components/uv-$1/uv-$1.vue"
+			}
+		}, */
+	  "pages": [
+	    {
+	      "path": "pages/index/index",
+	      "style": {
+	        "navigationBarTitleText": "心火",
+			"navigationStyle": "custom"
+	      }
+	    },
+	    {
+	    	"path" : "pages/yan/yan",
+	    	"style" : 
+	    	{
+	    		"navigationBarTitleText" : "研学"
+	    	}
+	    },
+	    {
+	    	"path" : "pages/user/user",
+	    	"style" : 
+	    	{
+	    		"navigationBarTitleText" : "我的"
+	    	}
+	    }
+	  ],
+	  // ...其他配置，如 globalStyle 和 app-plus
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "心火",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#aa0000",
+		"enablePullDownRefresh": true,
+		"app-plus": {
+			"background": "#ff640a"
+		}
+	}, 
+	"tabBar": {
+		"color": "#7A7E83",
+		"selectedColor": "#aa0000",
+		"borderStyle": "black",
+		"backgroundColor": "#ffffff",
+		"list": [{
+			"pagePath": "pages/index/index",
+			"iconPath": "static/image/icons/home.png",
+			"selectedIconPath": "static/image/icons/home-hover.png",
+			"text": "首页"
+		},{
+			"pagePath": "pages/yan/yan",
+			"iconPath": "static/image/icons/chart.png",
+			"selectedIconPath": "static/image/icons/chart-hover.png",
+			"text": "研学"
+		},{
+			"pagePath": "pages/my/my",
+			"iconPath": "static/image/icons/my.png",
+			"selectedIconPath": "static/image/icons/my-hover.png",
+			"text": "我的"
+		}]
+	},
+	"app-plus": {
+	  "usingComponents": true
+	  // ...其他配置
+	}
+}

@@ -1,0 +1,60 @@
+/* 颜色变量 */
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+.title .title-title {
+  position: fixed;
+  z-index: 999;
+  width: 750rpx;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+.title .title-title .title-return {
+  width: 60rpx;
+  height: 80rpx;
+  margin: 15rpx 0 0 20rpx;
+  position: absolute;
+  z-index: 999;
+  left: 0rpx;
+}
+.title .title-title .title-return image {
+  width: 50rpx;
+  height: 50rpx;
+}
+.title .title-title .title-name {
+  width: 500rpx;
+  text-align: center;
+  font-weight: bold;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  word-break: break-all;
+}
+.title .title-title .title-weather {
+  height: 80rpx;
+  margin: 5rpx 0 0 20rpx;
+  position: absolute;
+  z-index: 999;
+  left: 0rpx;
+}
+.title .title-title .title-weather .name {
+  line-height: 1.4rem;
+}
+.title .title-title .title-weather .info {
+  font-size: 10rpx;
+  line-height: 1rem;
+}
+.title .title-title .title-weather svg {
+  width: 20rpx;
+  height: 20rpx;
+}

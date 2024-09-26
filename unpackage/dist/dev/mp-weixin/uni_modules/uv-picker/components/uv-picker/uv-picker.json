@@ -1,0 +1,8 @@
+{
+  "component": true,
+  "usingComponents": {
+    "uv-toolbar": "../../../uv-toolbar/components/uv-toolbar/uv-toolbar",
+    "uv-loading-icon": "../../../uv-loading-icon/components/uv-loading-icon/uv-loading-icon",
+    "uv-popup": "../../../uv-popup/components/uv-popup/uv-popup"
+  }
+}

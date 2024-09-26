@@ -1,0 +1,38 @@
+.logway {
+    display: flex;
+}
+
+.logway .act {
+    height: 80rpx;
+    color: #6c6c6c;
+    font-size: 32rpx;
+    position: relative;
+}
+
+.act .item,
+.logway .act {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
+
+.act .item {
+    font-size: 28rpx;
+    align-items: center;
+}
+
+.act.active .item {
+    color: #3c3c3c;
+    text-align: center;
+    font-weight: 700;
+}
+
+.act.active .dot {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    height: 6rpx;
+    width: 96rpx;
+    margin-left: -48rpx;
+    background: #0c8;
+}

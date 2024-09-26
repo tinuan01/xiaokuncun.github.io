@@ -1,0 +1,9 @@
+{
+  "navigationBarTitleText": "心火",
+  "navigationStyle": "custom",
+  "usingComponents": {
+    "uni-rate": "../../uni_modules/uni-rate/components/uni-rate/uni-rate",
+    "uni-segmented-control": "../../uni_modules/uni-segmented-control/components/uni-segmented-control/uni-segmented-control",
+    "uv-swiper": "../../uni_modules/uv-swiper/components/uv-swiper/uv-swiper"
+  }
+}
